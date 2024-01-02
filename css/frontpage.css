@@ -1,0 +1,133 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* nav bar */
+.homeNav {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: last baseline;
+  padding-bottom: 5px;
+}
+
+.mainName {
+  margin-left: 30px;
+  color: #157347;
+  font-size: 36px;
+}
+
+.buttons {
+  margin-right: 30px;
+}
+
+.loginButton {
+  margin-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* main page */
+.wallpaper {
+  height: 994px;
+  background-image: url(img/homePagePoster.png);
+}
+
+.jobSearchDesc {
+  width: 678px;
+}
+
+.searchDesc {
+  padding-right: 170px;
+  font-size: 20px;
+
+  color: grey;
+}
+.advert {
+  font-family: Poppins;
+  font-size: 70px;
+  font-weight: 700px;
+  /* width: 678px ; */
+}
+
+.advert > .green {
+  color: #338573;
+}
+
+/* Search bar */
+.wallpaper {
+}
+.searchJob {
+  display: flex;
+  width: 730px;
+  height: 73px;
+  margin-top: 200px;
+}
+
+.searchButton {
+  background-color: #338573;
+  color: white;
+  border-style: none;
+  border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 186px;
+  font-style: Inter;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.searchItem {
+  border-style: none;
+  width: 730px;
+  font-size: 18px;
+  color: grey;
+  padding-left: 30px;
+}
+
+.homeText {
+  margin-left: 30px;
+  padding-top: 100px;
+}
+
+/*  Categories */
+.categories {
+  padding-top: 20px;
+  background-color: #f6f7fa;
+}
+.categories > h2 {
+  text-align: center;
+}
+
+.individualCategory {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  row-gap: 10px;
+}
+.itemCircle {
+  background-color: #33857394;
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryItems {
+  background-color: rgb(255, 255, 255);
+  width: 230px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.categoryItems > p {
+  font-weight: 700;
+}
